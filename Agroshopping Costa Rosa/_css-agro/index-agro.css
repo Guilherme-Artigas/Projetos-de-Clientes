@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); /* font-family: 'Open Sans', sans-serif; */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+main header {
+    background: rgb(45, 64, 97);
+    color: rgb(255, 255, 255);
+    padding: 20px 10px;
+    text-align: center;
+}
+main header h1 {
+    font-size: 27px;
+    margin: 0px 0px 20px 0px;
+}
+main header ul {
+    list-style-type: none;
+}
+main header ul a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+main header ul a li {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2px;
+    margin: 5px 0px 0px 0px;
+    padding: 10px 0px;
+}
+main header ul a li:hover {
+    background: rgba(255, 255, 255, .5);
+}
+/*  */
+.secao1 {
+    padding: 10px;
+}
+.secao1 img {
+    height: auto;
+    width: 100%;
+}
+.secao1 h2 {
+    color: rgb(165, 42, 42);
+    text-align: center;
+}
+.secao1 p {
+    margin: 10px 0px;
+    text-align: justify;
+}
+/*  */
+.secao2 {
+    background: rgb(45, 64, 97);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.racoes {
+    padding: 10px;
+}
+.racoes p {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin: 20px 0px;
+    padding: 0px 0px 10px 0px;
+    text-align: justify;
+}
+/*  */
+.plantas {
+    padding: 10px;
+}
+.plantas p {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin: 20px 0px;
+    padding: 0px 0px 10px 0px;
+    text-align: justify;
+}
+/*  */
+.frutas-vegetais {
+    padding: 10px;
+}
+.frutas-vegetais p {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin: 20px 0px;
+    padding: 0px 0px 10px 0px;
+    text-align: justify;
+}
+/*  */
+.ferramentas {
+    padding: 10px;
+}
+.ferramentas p {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin: 20px 0px;
+    padding: 0px 0px 10px 0px;
+    text-align: justify;
+}
+/*  */
+.secao3 {
+    padding: 10px;
+}
+.descricao-secao3 h2 {
+    color:rgb(165, 42, 42);
+    text-align: center;
+}
+.descricao-secao3 p {
+    margin: 10px 0px;
+    text-align: justify;
+}
+.secao3 img {
+    height: auto;
+    width: 100%;
+}
+/*  */
+.secao4 {
+    background-image: url('../_img-agro/img-depoimentos.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 100%;
+}
