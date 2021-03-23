@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); /* font-family: 'Open Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap'); /* font-family: 'Dancing Script', cursive; */
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -111,7 +112,24 @@ main header ul a li:hover {
 .secao4 {
     background-image: url('../_img-agro/img-depoimentos.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 400px;
     width: 100%;
+}
+.secao4 h2 {
+    color: rgba(255, 255, 255, .8);
+    font-family: 'Dancing Scripet', Cursive;
+    position: relative; top: 50px;
+    text-align: center;
+}
+.paragrafo-1 {
+    display: none;
+}
+.paragrafo-2 {
+    background:rgba(255, 255, 255, .8);
+    border-radius: 10px;
+    margin: 100px auto;
+    padding: 10px;
+    text-align: justify;
+    width: 90%;
 }
