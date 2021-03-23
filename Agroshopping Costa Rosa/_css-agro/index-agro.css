@@ -117,7 +117,7 @@ main header ul a li:hover {
     width: 100%;
 }
 .secao4 h2 {
-    color: rgba(255, 255, 255, .8);
+    color: rgba(255, 255, 255, .9);
     font-family: 'Dancing Scripet', Cursive;
     position: relative; top: 50px;
     text-align: center;
@@ -126,10 +126,155 @@ main header ul a li:hover {
     display: none;
 }
 .paragrafo-2 {
-    background:rgba(255, 255, 255, .8);
+    background:rgba(255, 255, 255, .6);
     border-radius: 10px;
     margin: 100px auto;
     padding: 10px;
     text-align: justify;
     width: 90%;
+}
+/*  */
+.secao5 {
+    padding: 20px;
+    text-align: center;
+}
+.enderecos {
+    border-bottom: 2px solid rgba(169, 169, 169, .5);
+    padding: 0px 0px 20px 0px;
+}
+.enderecos img {
+    width: 64px;
+}
+.enderecos h3 {
+    color:rgb(165, 42, 42);
+    margin: 20px 0px 0px 0px;
+}
+.contato {
+    border-bottom: 2px solid rgba(169, 169, 169, .5);
+    padding: 0px 0px 20px 0px;
+}
+.contato img {
+    width: 64px;
+}
+.contato h3 {
+    color:rgb(165, 42, 42);
+    margin: 20px 0px 0px 0px;
+}
+/*  */
+main footer {
+    background:rgb(45, 64, 97);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+main footer a {
+    display: block;
+    margin: 20px 0px 0px 0px;
+}
+/*  */
+@media only screen and (min-width: 600px) {
+    main header h1 {
+        margin: 0px 0px 10px 0px;
+        text-align: left;
+    }
+    main header ul a li {
+        display: inline-block;
+        margin: 0px;
+        padding: 10px 15px;
+    }
+    /*  */
+    .secao2 {
+        height: 750px;
+        padding: 10px 0px;
+    }
+    .racoes {
+        border-right: 1px solid rgb(255, 255, 255);
+        float: left;
+        width: 50%;
+    }
+    .descricao-racoes p {
+        border-bottom: none;
+    }
+    .plantas {
+        float: right;
+        height: 355px;
+        width: 50%;
+    }
+    .descricao-plantas p {
+        border-bottom: none;
+    }
+    .frutas-vegetais {
+        border-right: 1px solid rgb(255, 255, 255);
+        float: left;
+        margin: 20px 0px 0px 0px;
+        width: 50%;
+    }
+    .descricao-frutas-vegetais p {
+        border-bottom: none;
+    }
+    .ferramentas {
+        float: right;
+        margin: 20px 0px 0px 0px;
+        width: 50%;
+    }
+    .descricao-ferramentas p {
+        border-bottom: none;
+    }
+    main footer {
+        position: relative;
+        text-align: left;
+    }
+    main footer p {
+        display: inline-block;
+    }
+    main footer a {
+        display: inline-block;
+        margin: 0px;
+        position: absolute; right: 20px; bottom: 25px;
+    }
+}
+/*  */
+@media only screen and (min-width: 768px) {
+    .secao2 {
+        height: 680px;
+    }
+    .plantas {
+        height: 319px;
+    }
+    .paragrafo-1 {
+        background:rgba(255, 255, 255, .6);
+        border-radius: 10px;
+        display: block;
+        margin: 100px auto 50px auto;
+        padding: 10px;
+        text-align: justify;
+        width: 90%;
+    }
+    .paragrafo-2 {
+        margin: 0 auto;
+    }
+    .secao5 {
+        height: 300px;
+    }
+    .enderecos {
+        border-bottom: none;
+        border-right: 1px solid rgba(169, 169, 169, .5);
+        float: left;
+        padding: 0px 20px 0px 0px;
+        width: 50%;
+    }
+    .contato {
+        border-bottom: none;
+        border-left: 1px solid rgba(169, 169, 169, .5);
+        float: right;
+        height: 260px;
+        padding: 0px;
+        width: 50%;
+    }
+}
+/*  */
+@media only screen and (min-width: 1024px) {
+    .plantas {
+        height: 301px;
+    }
 }
