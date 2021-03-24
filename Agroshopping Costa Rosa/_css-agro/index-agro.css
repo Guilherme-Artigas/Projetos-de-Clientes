@@ -297,4 +297,7 @@ main footer a {
         margin: 0 auto;
         width: 24.6%;
     }
+    .enderecos {
+        height: 260px;
+    }
 }
