@@ -274,7 +274,27 @@ main footer a {
 }
 /*  */
 @media only screen and (min-width: 1024px) {
+    main {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        margin: 0 auto;
+        width: 1024px;
+    }
+    main header {
+        height: 80px;
+        position: relative;
+    }
+    main header h1 {
+        position: absolute; left: 10px;
+    }
+    main header ul {
+        position: absolute; right: 0px;
+        width: 55%;
+    }
     .plantas {
         height: 301px;
+    }
+    .secao3 img {
+        margin: 0 auto;
+        width: 24.6%;
     }
 }
