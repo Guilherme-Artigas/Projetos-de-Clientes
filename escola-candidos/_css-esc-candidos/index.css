@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;800&family=Comfortaa:wght@700&display=swap');
+/* font-family: 'Comfortaa', cursive; Logo */
+/* font-family: 'Baloo 2', cursive; Títulos e conteudo */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+main>header {
+    background: rgb(248, 248, 255);
+}
+.logo-escola img {
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+main header ul {
+    list-style-type: none;
+    text-align: center;
+}
+ul>a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:visited {
+    color:rgb(255, 255, 255);
+}
+li {
+    border-radius: 5px;
+    display: inline-block;
+    font-family: 'Comfortaa', cursive;
+    margin: 10px 5px 5px;
+    padding: 10px;
+}
+.home {
+    background: rgb(34, 139, 34);
+}
+.sobre {
+    background: rgb(100, 149, 237);
+}
+.contato {
+    background: rgb(165, 42, 42);
+}
+/* Fim do Header */
