@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;800&family=Comfortaa:wght@700&display=swap');
-/* font-family: 'Comfortaa', cursive; Logo */
-/* font-family: 'Baloo 2', cursive; Títulos e conteudo */
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
 * {
     box-sizing: border-box;
+    font-family: 'Akaya Kanadaka', cursive;
     margin: 0px;
     padding: 0px;
 }
@@ -28,18 +27,17 @@ a:visited {
 li {
     border-radius: 5px;
     display: inline-block;
-    font-family: 'Comfortaa', cursive;
     margin: 10px 5px 5px;
     padding: 10px;
 }
 .home {
-    background: rgb(34, 139, 34);
+    background: #228b22;
 }
 .sobre {
-    background: rgb(100, 149, 237);
+    background: #6495ed;
 }
 .contato {
-    background: rgb(165, 42, 42);
+    background: #a52a2a;
 }
 /* Fim do Header */
 .s1 {
@@ -58,11 +56,95 @@ li {
     width: 95%;
 }
 .descricao-escola h1 {
-    font-family: 'Baloo 2', cursive;
     text-align: center;
 }
 .descricao-escola p {
-    font-family: 'Baloo 2', cursive;
     margin: 10px 0px;
     text-align: justify;
+}
+/* Fim da s1 = Seção 1 */
+.s2 {
+    margin: 100px 0px 0px 0px;
+    padding: 10px;
+}
+.atividades {
+    background: rgb(103,255,103);
+    background: linear-gradient(180deg, rgba(103,255,103,1) 0%, rgba(34,139,34,1) 100%);
+    border-radius: 10px;
+    color:rgb(255, 255, 255);
+    height: 260px;
+    padding: 10px;
+    text-align: center;
+}
+.atividades img {
+    position: relative; top: -100px;
+}
+.atividades h2 {
+    position: relative; top: -80px
+}
+.atividades p {
+    position: relative; top: -60px;
+    text-align: justify;
+}
+/* Fim do Artigo Atividades */
+.educacao {
+    background: rgb(100,149,237);
+    background: linear-gradient(180deg, rgba(100,149,237,1) 0%, rgba(23,98,233,1) 100%);
+    border-radius: 10px;
+    color:rgb(255, 255, 255);
+    height: 260px;
+    margin: 100px 0px 0px 0px;
+    padding: 10px;
+    text-align: center;
+}
+.educacao img {
+    position: relative; top: -100px;
+}
+.educacao h2 {
+    position: relative; top: -80px;
+}
+.educacao p {
+    position: relative; top: -60px;
+    text-align: justify;
+}
+/* Fim do Artigo Educação */
+.professores {
+    background: rgb(255,116,116);
+    background: linear-gradient(180deg, rgba(255,116,116,1) 0%, rgba(165,42,42,1) 100%);
+    border-radius: 10px;
+    color:rgb(255, 255, 255);
+    height: 260px;
+    margin: 100px 0px 0px 0px;
+    padding: 10px;
+    text-align: center;
+}
+.professores img {
+    position: relative; top: -100px;
+}
+.professores h2 {
+    position: relative; top: -80px;
+}
+.professores p {
+    position: relative; top: -60px;
+    text-align: justify;
+}
+/* Fim da seção 2 e Artigo Professores */
+.s3 {
+    background-image: url('../_img-esc-candidos/1133.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    width: 100%;
+}
+.depoimentos {
+    background:rgba(255, 255, 255, .5);
+    height: inherit;
+}
+.s3 h2 {
+    font-size: 58px;
+}
+.s3 p {
+    background:rgba(255, 255, 255, 1);
+    margin: 50px 0px;
 }
