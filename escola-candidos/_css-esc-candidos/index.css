@@ -33,10 +33,10 @@ li {
 .home {
     background: #228b22;
 }
-.sobre {
+.botao2 {
     background: #6495ed;
 }
-.contato {
+.botao3 {
     background: #a52a2a;
 }
 /* Fim do Header */
@@ -66,6 +66,9 @@ li {
 .s2 {
     margin: 100px 0px 0px 0px;
     padding: 10px;
+}
+section>article {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .atividades {
     background: rgb(103,255,103);
@@ -147,4 +150,94 @@ li {
 .s3 p {
     background:rgba(255, 255, 255, 1);
     margin: 50px 0px;
+}
+/* Fim da Seção Depoimentos */
+.s4 {
+    padding: 20px;
+    text-align: center;
+}
+.endereco {
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding: 0px 0px 10px 0px;
+}
+.endereco h2 {
+    margin: 10px 0px;
+}
+.contato {
+    border-top: 1px solid rgb(211, 211, 211);
+    padding: 10px 0px 0px 0px;
+}
+.contato h2 {
+    margin: 10px 0px;
+}
+/* Fim da Seção de Endereço/Contato */
+footer {
+    background-color: rgb(34, 139, 34);
+    color:rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+footer>p {
+    font-size: 12px;
+}
+footer>a {
+    display: block;
+    margin: 20px 0px 0px 0px;
+}
+/* Fim do Rodapé */
+@media only screen and (min-width: 425px) {
+    .atividades, .educacao, .professores {
+        height: 230px;
+    }
+    .s3 {
+        height: 500px;
+    }
+}
+/* Fim da Configuração para Celulares */
+@media only screen and (min-width: 600px) {
+    header {
+        padding: 10px;
+        position: relative;
+    }
+    .logo-escola {
+        display: inline-block;
+        width: 150px;
+    }
+    header>ul {
+        position: absolute; right: 10px; bottom: 50px;
+    }
+    .atividades, .educacao, .professores {
+        height: 200px;
+    }
+    .s3 {
+        height: 420px;
+    }
+    .endereco {
+        border-bottom: none;
+        border-right: 1px solid rgb(211, 211, 211);
+        display: inline-block;
+        padding: 0px;
+        position: relative; left: 2px;
+        width: 49.6%;
+    }
+    .contato {
+        border-top: none;
+        border-left: 1px solid rgb(211, 211, 211);
+        display: inline-block;
+        height: 155px;
+        padding: 0px;
+        position: relative; right: 2px; bottom: 19px;
+        width: 49.6%;
+    }
+    footer {
+        position: relative;
+        text-align: left;
+    }
+    footer>p {
+        display: inline-block;
+    }
+    footer a {
+        position: absolute; right: 20px; bottom: 10px;
+        display: inline-block;
+    }
 }
