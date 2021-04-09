@@ -206,12 +206,15 @@ footer>a {
     header>ul {
         position: absolute; right: 10px; bottom: 50px;
     }
+    /* Fim do cabeçalho */
     .atividades, .educacao, .professores {
         height: 200px;
     }
+    /* Fim dos artigos, atividades, educação, professores */
     .s3 {
         height: 420px;
     }
+    /* Fim depoimentos */
     .endereco {
         border-bottom: none;
         border-right: 1px solid rgb(211, 211, 211);
@@ -229,6 +232,7 @@ footer>a {
         position: relative; right: 2px; bottom: 19px;
         width: 49.6%;
     }
+    /* Fim da seção de localização e contato */
     footer {
         position: relative;
         text-align: left;
@@ -239,5 +243,49 @@ footer>a {
     footer a {
         position: absolute; right: 20px; bottom: 10px;
         display: inline-block;
+    }
+}
+@media only screen and (min-width: 927px) {
+    main {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    .s2 {
+        margin: 100px 0px 0px 0px;
+    }
+    .atividades {
+        display: inline-block;
+        height: 250px;
+        width: 33%;
+    }
+    .educacao {
+        display: inline-block;
+        height: 250px;
+        margin: 0px;
+        width: 33%;
+    }
+    .professores {
+        display: inline-block;
+        height: 250px;
+        position: relative; bottom: 18px;
+        margin: 0px;
+        width: 33%;
+    }
+    /* Fim da seção de atividades, educação, professores */
+    .s3 {
+        height: 250px;
+    }
+    .s3 p {
+        display: inline-block;
+        width: 33%
+    }
+    /* Fim da configuração da seção de depoimentos */
+    .endereco {
+        height: 155px;
+        left: 3px;
+    }
+    .contato {
+        position: relative; right: 2px; bottom: 0px;
     }
 }
