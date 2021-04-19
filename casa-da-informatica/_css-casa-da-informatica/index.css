@@ -46,25 +46,123 @@ header>img {
     position: relative; top: 10px;
 }
 /* Fim do cabeçalho */
-.s1 {
-    background-image: url('../_img-casa-da-informatica/casa-informatica.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    position: relative;
+.s1 img {
+    height: auto;
     width: 100%;
 }
 .descricao {
-    background: rgba(255, 255, 255, .9);
-    padding: 5px;
-    position: absolute; bottom: 100px;
+    padding: 10px;
 }
 .descricao h2 {
-    font-family: 'Ubuntu', Sans-Serif;
+    font-family: 'Ubuntu', sans-serif;
     text-align: center;
 }
 .descricao p {
     font-family: 'PT Serif', serif;
-    margin: 20px 0px 0px 0px;
+    margin: 10px 0px;
     text-align: justify;
+}
+/* Fim da seção1 */
+.s2 {
+    background: #082440;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+.s2 h2 {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px 0px 10px 0px;
+}
+.s2 img {
+    border-radius: 100px;
+    width: 200px;
+}
+.s2 h3 {
+    font-family: 'PT Serif', serif;
+}
+.s2 p {
+    font-family: 'PT Serif', serif;
+    margin: 10px 0px 0px 0px;
+    text-align: justify;
+}
+/* Fim da seção2 */
+.s3 {
+    padding: 10px;
+    text-align: center;
+}
+.s3 h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+.s3 p {
+    margin: 10px 0px;
+    text-align: justify;
+}
+.s3 img {
+    height: auto;
+    width: 100%;
+}
+/* Fim da seção3 */
+.s4 {
+    background-image: url('../_img-casa-da-informatica/img-fundo-depoimentos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.s4 p {
+    background: rgba(255, 255, 255, .8);
+    border-radius: 5px;
+    margin: 10px 0px 0px 0px;
+    padding: 10px;
+    text-align: justify;
+}
+/* Fim da seção4 */
+.s5 {
+    padding: 10px;
+    text-align: center;
+}
+.s5 h3 {
+    font-family: 'Ubuntu', sans-serif;
+}
+.s5 p {
+    font-family: 'PT Serif', serif;
+}
+.img-2 {
+    margin: 20px 0px 0px 0px;
+}
+/* Fim da seção5 */
+footer {
+    background: #082440;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 10px;
+    padding: 10px;
+}
+footer>h2 {
+    display: inline-block;
+}
+footer>a {
+    position: relative; left: 120px;
+}
+/* Fim do rodapé */
+@media only screen and (min-width: 375px) {
+    .s4 p {
+        margin: 30px auto;
+        width: 80%;
+    }
+    footer>a {
+        left: 180px;
+    }
+}
+@media only screen and (min-width: 425px) {
+    footer>a {
+        left: 230px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    footer>a {
+        left: 580px;
+    }
 }
