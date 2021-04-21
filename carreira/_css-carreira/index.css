@@ -23,10 +23,11 @@ header>h1 {
     height: 600px;
     width: 100%;
 }
-.s1 div {
+.s1>div {
     background: rgba(0, 0, 0, .8);
     height: inherit;
     padding: 10px;
+    position: relative;
 }
 div>h2 {
     font-family: 'Cairo', sans-serif;
@@ -38,6 +39,8 @@ div>p {
 div>form {
     background: #008080;
     padding: 20px;
+    position: absolute; bottom: 10px;
+    width: 94%;
 }
 form>h2 {
     font-family: 'Cairo', sans-serif;
@@ -83,4 +86,52 @@ input#botao-form {
     font-family: 'Zilla Slab', serif;
     margin: 0px 0px 20px 0px;
 }
-/* Fim da seção3 */
+/* Fim da Seção3 */
+.s4 {
+    background: #141540;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.s4 h2 {
+    font-family: 'Cairo', sans-serif;
+    margin: 50px 0px;
+}
+.s4 p {
+    font-family: 'Zilla Slab', serif;
+}
+/* Fim da Seção4 */
+footer {
+    background: darkgrey;
+    color: #fff;
+    padding: 50px 10px;
+    text-align: center;
+}
+footer>h2, h3 {
+    font-family: 'Cairo', sans-serif;
+    display: inline-block;
+}
+footer>h2 {
+    position: relative; bottom: 35px;
+}
+footer>h3 {
+    position: relative; right: 60px; bottom: 16px;
+}
+footer>img {
+    margin: 0px 5px;
+}
+footer>p {
+    font-family: 'Cairo', sans-serif;
+    margin: 50px 0px 0px 0px;
+}
+/* Fim */
+@media only screen and (min-width: 375px) {
+    div>form {
+        width: 95%;
+    }
+}
+@media only screen and (min-width: 425px) {
+    div>form {
+        width: 95.5%;
+    }
+}
