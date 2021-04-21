@@ -70,11 +70,17 @@ input#botao-form {
 .s3 {
     background: #daa520;
     padding: 30px;
+    text-align: center;
 }
-.s3 div {
-    border: 5px solid #fff;
-    border-radius: 100px;
-    height: 100px;
-    padding: 30px;
-    width: 100px;
+.s3 img {
+    margin: 50px 0px 0px 0px;
 }
+.s3 h3 {
+    font-family: 'Cairo', sans-serif;
+    margin: 20px 0px;
+}
+.s3 p {
+    font-family: 'Zilla Slab', serif;
+    margin: 0px 0px 20px 0px;
+}
+/* Fim da seção3 */
