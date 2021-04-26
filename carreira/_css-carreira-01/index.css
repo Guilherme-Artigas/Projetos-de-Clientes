@@ -139,3 +139,25 @@ footer>p {
         width: 95.5%;
     }
 }
+@media only screen and (min-width: 768px) {
+    div>form {
+        width: 98%;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    main {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 968px;
+        margin: 0 auto;
+    }
+    div>p {
+        display: inline-block;
+        position: relative; bottom: 150px;
+        width: 49%;
+    }
+    div>form {
+        display: inline-block;
+        position: relative; top: 250px;
+        width: 49%;
+    }
+}
