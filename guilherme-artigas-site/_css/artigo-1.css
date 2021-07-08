@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Nunito&display=swap');
+/* 
+font-family: 'Nunito', sans-serif; Títulos e menu de navegação
+font-family: 'Montserrat', sans-serif; Textos grandes
+*/
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* Ínicio header */
+header {
+    background: rgba(30, 144, 255);
+    padding: 10px;
+}
+header h1 {
+    color: rgba(255, 255, 255);
+    font-size: 24px;
+}
+/* Fim do header */
+/* Ínicio da seção 1 */
+.s1 {
+    padding: 5px;
+}
+.s1 h2 {
+    margin: 20px 0px;
+}
+/* Fim da seção 1 */
+/* Ínicio da ul */
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+ul a {
+    color: rgba(255, 255, 255);
+    text-decoration: none;
+}
+ul a:visited {
+    color: rgba(255, 255, 255);
+}
+ul a li {
+    background: rgba(205, 133, 63);
+    display: inline-block;
+    margin: 5px -1px;
+    padding: 10px;
+    width: 33%;
+}
+/* Fim da ul */
+/* Início do rodapé */
+footer {
+    background: rgba(0, 0, 0, .1);
+    color: black;
+    padding: 10px;
+}
+footer a {
+    margin: 5px 10px;
+    position: relative; top: 4px;
+}

@@ -9,9 +9,6 @@ font-family: 'Montserrat', sans-serif; Textos grandes
     padding: 0px;
 }
 /* Início do Header */
-main {
-    background: rgba(255, 255, 255);
-}
 main header ul {
     background: rgba(30, 144, 255);
     list-style-type: none;
@@ -34,43 +31,29 @@ a:visited {
     color: rgba(255, 255, 255);
 }
 /* Fim do Header */
-/* Início da seção 1 */
-.s1 {
-    background: rgba(0, 0, 0, .9);
-    height: 400px;
-    padding: 50px;
-}
-.s1 img {
-    border: 5px solid white;
-    border-radius: 100px;
-    display: block;
-    margin: 0px auto;
-    width: 200px;
-}
+/* Início da seção1-artigos */
 .s1 h1 {
-    color: white;
-    margin: 50px 0px;
-    text-decoration: underline;
+    font-size: 22px;
+    padding: 20px 5px;
     text-align: center;
 }
-/* Fim da seção 1 */
-/* Início da seção 2 */
-.s2 {
-    background: rgba(30, 144, 255, .9);
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+.s1 ol {
+    list-style-position: inside;
 }
-.s2 h2 {
-    font-family: 'Nunito', sans-serif;
-    margin: 0px 0px 30px 0px;
+.s1 ol a {
+    text-decoration: none;
 }
-.s2 p {
-    /* font-family: 'Montserrat', sans-serif; */
-    font-size: 20px;
-    text-align: justify;
+.s1 ol a:visited {
+    color: rgb(255, 255, 255);
 }
-/* Fim da seção 2 */
+.s1 ol a li {
+    background: rgba(30, 144, 255, .5);
+    border-bottom: 2px solid rgb(30, 144, 255);
+    color: rgb( 255, 255, 255);
+    margin: 10px 0px;
+    padding: 10px 5px;
+}
+/* Fim da seção1-artigos */
 /* Início do rodapé */
 footer {
     background: rgba(0, 0, 0, .1);
