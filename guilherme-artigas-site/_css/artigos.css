@@ -39,11 +39,13 @@ main header ul a li {
 /* Fim do Header */
 /* Início da seção1-artigos */
 .s1 h1 {
+    font-family: 'Nunito', sans-serif;
     font-size: 22px;
     padding: 20px 5px;
     text-align: center;
 }
 .s1 ol {
+    font-family: 'Montserrat', sans-serif;
     list-style-position: inside;
 }
 .s1 ol a {

@@ -24,6 +24,7 @@ header {
 }
 header h1 {
     color: rgba(255, 255, 255);
+    font-family: 'Nunito', sans-serif;
     font-size: 24px;
 }
 /* Fim do header */
@@ -32,7 +33,16 @@ header h1 {
     padding: 5px;
 }
 .s1 h2 {
+    font-family: 'Nunito', sans-serif;
     margin: 20px 0px;
+}
+.s1 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.s1 img {
+    height: auto;
+    max-width: 100%;
 }
 /* Fim da seção 1 */
 /* Ínicio da ul */
