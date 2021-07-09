@@ -9,6 +9,15 @@ font-family: 'Montserrat', sans-serif; Textos grandes
     padding: 0px;
 }
 /* Ínicio header */
+main {
+    background: rgba(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .8);
+    max-width: 500px;
+    margin: 0px auto;
+}
+main header {
+    border: 1px solid white;
+}
 header {
     background: rgba(30, 144, 255);
     padding: 10px;

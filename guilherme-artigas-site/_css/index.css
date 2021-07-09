@@ -11,20 +11,16 @@ font-family: 'Montserrat', sans-serif; Textos grandes
 /* Início do Header */
 main {
     background: rgba(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .8);
+    max-width: 500px;
+    margin: 0px auto;
 }
 main header ul {
     background: rgba(30, 144, 255);
     list-style-type: none;
     text-align: center;
 }
-main header ul li {
-    border: 1px solid white;
-    display: inline-block;
-    margin: 0px -2px;
-    padding: 10px;
-    width: 50%;
-}
-main header ul li a {
+main header ul a {
     color:rgba(255, 255, 255);
     font-family: 'Nunito', sans-serif;
     font-weight: 900;
@@ -32,6 +28,13 @@ main header ul li a {
 }
 a:visited {
     color: rgba(255, 255, 255);
+}
+main header ul a li {
+    border: 1px solid white;
+    display: inline-block;
+    margin: 0px -2px;
+    padding: 10px;
+    width: 50%;
 }
 /* Fim do Header */
 /* Início da seção 1 */
