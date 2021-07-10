@@ -55,8 +55,8 @@ main header ul a li {
     color: rgb(255, 255, 255);
 }
 .s1 ol a li {
-    background: rgba(30, 144, 255, .5);
-    border-bottom: 2px solid rgb(30, 144, 255);
+    background: rgba(30, 144, 255, .6);
+    border-bottom: 5px solid rgb(30, 144, 255);
     color: rgb( 255, 255, 255);
     margin: 10px 0px;
     padding: 10px 5px;
