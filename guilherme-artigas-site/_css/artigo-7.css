@@ -40,6 +40,24 @@ header h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
+.s1 h3 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    margin: 10px 0px;
+}
+.resumo {
+    list-style-type: square;
+    list-style-position: inside;
+    text-align: left;
+}
+.resumo h1 {
+    font-family: 'Nunito', sans-serif;
+    margin: 10px 0px;
+}
+.resumo li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
 /* Fim da seção 1 */
 /* Ínicio da ul */
 ul {
