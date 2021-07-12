@@ -36,6 +36,11 @@ header h1 {
     font-family: 'Nunito', sans-serif;
     margin: 20px 0px;
 }
+.s1 em {
+    background: rgba(255, 255, 0,.3);
+    display: block;
+    padding: 5px;
+}
 .s1 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
