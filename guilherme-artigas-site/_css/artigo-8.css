@@ -40,18 +40,18 @@ header h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
-.s1 em {
+.s1>em {
     background: rgba(255, 255, 0, .3);
     display: block;
     padding: 5px;
 }
-.s1 h3 {
+.s1>h3 {
     font-family: 'Nunito', sans-serif;
     margin: 20px 0px;
     text-align: center;
     text-decoration: underline;
 }
-.s1 ul {
+.s1>ul {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     list-style-type: disc;
@@ -59,13 +59,13 @@ header h1 {
     margin: 20px 0px;
     text-align: left;
 }
-.s1 ol {
+.s1>ol {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     list-style-position: inside;
     text-align: left;
 }
-.s1 ol li {
+.s1>ol li {
     margin: 30px 0px;
 }
 /* Fim da seção 1 */
