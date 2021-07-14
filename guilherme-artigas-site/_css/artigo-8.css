@@ -70,18 +70,18 @@ header h1 {
 }
 /* Fim da seção 1 */
 /* Ínicio da ul */
-ul {
+.nav-inferior {
     list-style-type: none;
     text-align: center;
 }
-ul a {
+.nav-inferior>ul>a {
     color: rgba(255, 255, 255);
     text-decoration: none;
 }
-ul a:visited {
+.nav-inferior>ul>a:visited {
     color: rgba(255, 255, 255);
 }
-ul a li {
+.nav-inferior>ul>a>li {
     background: rgba(205, 133, 63);
     display: inline-block;
     margin: 5px -1px;

@@ -29,31 +29,31 @@ header h1 {
 }
 /* Fim do header */
 /* Ínicio da seção 1 */
-.s1 {
+.s1-artigo-3 {
     padding: 5px;
 }
-.s1 h2 {
+.s1-artigo-3 h2 {
     font-family: 'Nunito', sans-serif;
     margin: 20px 0px;
 }
-.s1 p {
+.s1-artigo-3 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
 /* Fim da seção 1 */
 /* Ínicio da ul */
-ul {
+.nav-inferior {
     list-style-type: none;
     text-align: center;
 }
-ul a {
+.nav-inferior>ul>a {
     color: rgba(255, 255, 255);
     text-decoration: none;
 }
-ul a:visited {
+.nav-inferior>ul>a:visited {
     color: rgba(255, 255, 255);
 }
-ul a li {
+.nav-inferior>ul>a>li {
     background: rgba(205, 133, 63);
     display: inline-block;
     margin: 5px -1px;

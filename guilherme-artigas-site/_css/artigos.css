@@ -15,21 +15,21 @@ main {
     max-width: 500px;
     margin: 0px auto;
 }
-main header ul {
+.nav-superior>ul {
     background: rgba(30, 144, 255);
     list-style-type: none;
     text-align: center;
 }
-main header ul a {
+.nav-superior>ul>a {
     color:rgba(255, 255, 255);
     font-family: 'Nunito', sans-serif;
     font-weight: 900;
     text-decoration: none;
 }
-a:visited {
+ul>a:visited {
     color: rgba(255, 255, 255);
 }
-main header ul a li {
+.nav-superior>ul>a>li {
     border: 1px solid white;
     display: inline-block;
     margin: 0px -2px;
@@ -38,23 +38,23 @@ main header ul a li {
 }
 /* Fim do Header */
 /* Início da seção1-artigos */
-.s1 h1 {
+.s1-artigos h1 {
     font-family: 'Nunito', sans-serif;
     font-size: 22px;
     padding: 20px 5px;
     text-align: center;
 }
-.s1 ol {
+.s1-artigos ol {
     font-family: 'Montserrat', sans-serif;
     list-style-position: inside;
 }
-.s1 ol a {
+.s1-artigos ol a {
     text-decoration: none;
 }
-.s1 ol a:visited {
+.s1-artigos ol a:visited {
     color: rgb(255, 255, 255);
 }
-.s1 ol a li {
+.s1-artigos ol a li {
     background: rgba(30, 144, 255, .6);
     border-bottom: 5px solid rgb(30, 144, 255);
     color: rgb( 255, 255, 255);

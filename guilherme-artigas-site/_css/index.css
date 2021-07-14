@@ -15,21 +15,21 @@ main {
     max-width: 500px;
     margin: 0px auto;
 }
-main header ul {
+.nav-superior>ul {
     background: rgba(30, 144, 255);
     list-style-type: none;
     text-align: center;
 }
-main header ul a {
+.nav-superior>ul>a {
     color:rgba(255, 255, 255);
     font-family: 'Nunito', sans-serif;
     font-weight: 900;
     text-decoration: none;
 }
-a:visited {
+ul>a:visited {
     color: rgba(255, 255, 255);
 }
-main header ul a li {
+.nav-superior>ul>a>li {
     border: 1px solid white;
     display: inline-block;
     margin: 0px -2px;
@@ -38,19 +38,19 @@ main header ul a li {
 }
 /* Fim do Header */
 /* Início da seção 1 */
-.s1 {
+.s1-home {
     background: rgba(0, 0, 0, .9);
     height: 400px;
     padding: 50px;
 }
-.s1 img {
+.s1-home img {
     border: 5px solid white;
     border-radius: 100px;
     display: block;
     margin: 0px auto;
     width: 200px;
 }
-.s1 h1 {
+.s1-home h1 {
     color: white;
     margin: 50px 0px;
     text-decoration: underline;
@@ -58,17 +58,17 @@ main header ul a li {
 }
 /* Fim da seção 1 */
 /* Início da seção 2 */
-.s2 {
+.s2-home {
     background: rgba(30, 144, 255, .9);
     color: #fff;
     padding: 20px;
     text-align: center;
 }
-.s2 h2 {
+.s2-home h2 {
     font-family: 'Nunito', sans-serif;
     margin: 0px 0px 30px 0px;
 }
-.s2 p {
+.s2-home p {
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
 }
