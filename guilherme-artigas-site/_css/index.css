@@ -18,6 +18,7 @@ nav.nav-superior>ul {
     text-align: center;
 }
 nav.nav-superior>ul>a {
+    color: rgba(255, 255, 255);
     text-decoration: none;
 }
 nav.nav-superior>ul>a:visited {
