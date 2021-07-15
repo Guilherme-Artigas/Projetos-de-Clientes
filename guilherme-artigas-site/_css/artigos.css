@@ -27,6 +27,7 @@ nav.nav-superior>ul>a:visited {
 nav.nav-superior>ul>a>li {
     background: rgba(30, 144, 255);
     border: 1px solid rgba(255, 255, 255);
+    color: rgba(255, 255, 255);
     display: inline-block;
     font-family: 'Noto Sans TC', sans-serif;
     margin: 0px -2px;
