@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+main {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 0px auto;
+    width: 500px;
+}
+/* Início do Header */
+header>h1 {
+    background: rgba(30, 144, 255);
+    border: 1px solid rgba(255, 255, 255);
+    color: rgba(255, 255, 255);
+    padding: 5px;
+}
+/* Fim do Header */
+/* Início do s1-artigo-4 */
+section.s1-artigo-4 {
+    padding: 5px;
+}
+section.s1-artigo-4>h2 {
+    margin: 20px 0px;
+}
+/* Fim do s1-artigo-4 */
+/* Início do nav-inferior */
+nav.nav-inferior>ul {
+    list-style-type: none;
+}
+nav.nav-inferior>ul>a {
+    color: rgba(255, 255, 255);
+}
+nav.nav-inferior>ul>a:visited {
+    color: rgba(255, 255, 255);
+}
+nav.nav-inferior>ul>a>li {
+    background: rgba(255, 99, 71);
+    display: inline-block;
+    margin: 10px -1px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 33.1%;
+}
+/* Fim do nav-inferior */
+/* Início do Footer */
+footer {
+    background: rgba(128, 128, 128, .1);
+    padding: 5px;
+}
+footer>a {
+    margin: 0px 5px;
+    position: relative; top: 3px;
+}
+/* Fim do Footer */
