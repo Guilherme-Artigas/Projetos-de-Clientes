@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Ubuntu&display=swap');
+/* 
+    font-family: 'Noto Sans TC', sans-serif; Titulos e menus
+    font-family: 'Ubuntu', sans-serif; Paragrafos
+*/
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -22,6 +27,7 @@ nav.nav-superior>ul>a>li {
     background: rgba(30, 144, 255);
     border: 1px solid rgba(255, 255, 255);
     display: inline-block;
+    font-family: 'Noto Sans TC', sans-serif;
     margin: 0px -2px;
     padding: 10px 0px;
     width: 50%;
@@ -29,6 +35,7 @@ nav.nav-superior>ul>a>li {
 /* Fim do Header */
 /* Início da s1-artigos */
 section.s1-artigos>h1 {
+    font-family: 'Noto Sans TC', sans-serif;
     margin: 40px 0px;
     text-align: center;
 }
@@ -45,6 +52,7 @@ section.s1-artigos>ol>a:visited {
 section.s1-artigos>ol>a>li {
     background: rgba(30, 144, 255, .5);
     border-bottom: 5px solid rgba(30, 144, 255, .9);
+    font-family: 'Ubuntu', sans-serif;
     margin: 20px 0px;
     padding: 10px 5px;
 }
