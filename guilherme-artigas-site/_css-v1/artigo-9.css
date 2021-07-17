@@ -6,7 +6,7 @@
 main {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 0px auto;
-    width: 500px;
+    max-width: 500px;
 }
 /* Início do Header */
 header>h1 {
