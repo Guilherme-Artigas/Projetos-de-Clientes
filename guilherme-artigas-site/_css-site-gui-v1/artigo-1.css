@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Prompt&display=swap');
 /* 
-    font-family: 'Noto Sans TC', sans-serif; Titulos e menus
-    font-family: 'Ubuntu', sans-serif; Paragrafos
+    font-family: 'Prompt', sans-serif; Titulos e menus
+    font-family: 'PT Sans', sans-serif; Paragrafos
 */
 * {
     box-sizing: border-box;
@@ -11,33 +11,35 @@
 main {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 0px auto;
-    width: 500px;
+    max-width: 500px;
 }
 /* Início do Header */
 header>h1 {
     background: rgba(30, 144, 255);
     border: 1px solid rgba(255, 255, 255);
     color: rgba(255, 255, 255);
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Prompt', sans-serif;
     padding: 5px;
 }
 /* Fim do Header */
-/* Início do s1-artigo-6 */
-section.s1-artigo-6 {
+/* Início do s1-artigo-1 */
+section.s1-artigo-1 {
     padding: 5px;
 }
-section.s1-artigo-6>h2 {
-    font-family: 'Noto Sans TC', sans-serif;
+section.s1-artigo-1>h2 {
+    font-family: 'Prompt', sans-serif;
     margin: 20px 0px;
 }
-section.s1-artigo-6>p {
-    font-family: 'Ubuntu', sans-serif;
+section.s1-artigo-1>p {
+    font-family: 'PT Sans', sans-serif;
 }
-section.s1-artigo-6>p.nota-1 {
-    background: rgba(255, 255, 0, .1);
-    padding: 5px;
+section.s1-artigo-1>p>a {
+    color: rgba(0, 0, 0);
 }
-/* Fim do s1-artigo-6 */
+section.s1-artigo-1>p>a:visited {
+    color: rgba(0, 0, 0);
+}
+/* Fim do s1-artigo-1 */
 /* Início do nav-inferior */
 nav.nav-inferior>ul {
     list-style-type: none;
@@ -51,7 +53,7 @@ nav.nav-inferior>ul>a:visited {
 nav.nav-inferior>ul>a>li {
     background: rgba(255, 99, 71);
     display: inline-block;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Prompt', sans-serif;
     margin: 10px -1px;
     padding: 10px 0px;
     text-align: center;
