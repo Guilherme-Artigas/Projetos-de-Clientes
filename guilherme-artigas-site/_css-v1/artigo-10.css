@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Prompt&display=swap');
+/* 
+    font-family: 'Prompt', sans-serif; Titulos e menus
+    font-family: 'PT Sans', sans-serif; Paragrafos
+*/
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -17,7 +22,23 @@ header>h1 {
 }
 /* Fim do Header */
 /* Início do s1-artigo-10 */
-
+section.s1-artigo-10 {
+    padding: 5px;
+}
+section.s1-artigo-10 h2 {
+    font-family: 'Prompt', sans-serif;
+    margin: 20px 0px;
+}
+section.s1-artigo-10 p {
+    font-family: 'PT Sans', sans-serif;
+}
+section.s1-artigo-10 ul {
+    list-style-position: inside;
+}
+section.s1-artigo-10 p.dica-artigo-10 {
+    background: rgba(210, 105, 30, .1);
+    padding: 5px;
+}
 /* Fim do s1-artigo-10 */
 /* Início do nav-inferior */
 nav.nav-inferior>ul {
